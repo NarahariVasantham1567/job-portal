@@ -1,0 +1,28 @@
+.saved-candidate-container {
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container h3 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.icon {
+  color: #b5b4b4;
+  font-size: 12px;
+}
+
+.info {
+  color: #b5b4b4;
+  font-size: 12px;
+}

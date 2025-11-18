@@ -17,6 +17,7 @@ import {
 } from './pages';
 import Header from './components/Header/Header';
 import SavedCandidate from './pages/SavedCandidate';
+import Footer from './components/Footer/Footer';
 
 export default function App() {
   return (
@@ -41,6 +42,7 @@ export default function App() {
         <Route path='/applications' element={<Applications />} />
         <Route path='/customer-support' element={<CustomerSupports />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

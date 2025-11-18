@@ -1,0 +1,12 @@
+.footer-container {
+  padding: 16px;
+  width: 100%;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-content {
+  color: #bababa;
+}
