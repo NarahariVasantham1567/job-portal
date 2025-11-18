@@ -15,6 +15,7 @@ import {
   PostJob,
   Settings,
 } from './pages';
+
 import Header from './components/Header/Header';
 import SavedCandidate from './pages/SavedCandidate';
 import Footer from './components/Footer/Footer';

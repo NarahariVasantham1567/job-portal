@@ -2,7 +2,6 @@ import './Dashboard.css';
 
 import { Outlet } from 'react-router-dom';
 import Sidebar from '../components/Sidebar/Sidebar';
-import Modal from '../components/Modal/Modal';
 
 export default function DashboardPage() {
   return (
@@ -11,7 +10,6 @@ export default function DashboardPage() {
         <Sidebar />
         <Outlet />
       </div>
-      <Modal />
     </>
   );
 }

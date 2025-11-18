@@ -1,0 +1,167 @@
+.billings-container {
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 16px;
+  row-gap: 12px;
+}
+
+.current-plan-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 16px;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 1px 0.5px rgba(0, 0, 0, 0.3);
+}
+
+.current-plan-container p {
+  font-size: 12px;
+}
+
+.current-plan-container h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.current-plan-container span {
+  font-size: 12px;
+  color: #c5c4c4;
+}
+
+.btns-container {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.change-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 3px;
+  background-color: #e2e0e0;
+  color: #3786a5;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 3px;
+  background-color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.plan-benefits-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 16px;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 1px 0.5px rgba(0, 0, 0, 0.3);
+}
+
+.plan-benefits-container p {
+  font-size: 14px;
+}
+
+.plan-benefits-container span {
+  font-size: 12px;
+  color: #c5c4c4;
+}
+
+.list-container {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.list-item-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 8px;
+}
+
+.tick-icon {
+  color: #3786a5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.text {
+  color: #c5c4c4;
+  font-size: 10px;
+  text-align: start;
+}
+
+.li-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 12px;
+  row-gap: 12px;
+}
+
+.cros-icon {
+  color: red;
+}
+
+.invoice-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 1px 0.5px rgba(0, 0, 0, 0.3);
+}
+
+.invoice-text {
+  font-size: 14px;
+}
+
+.money {
+  color: #3786a5;
+  font-weight: 400;
+}
+
+.date {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.package-text {
+  font-size: 12px;
+  color: #bcbbbb;
+}
+
+.monthly-pay {
+  font-size: 12px;
+  color: #bcbbbb;
+}
+
+.pay-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #1b7091;
+  color: white;
+}
+
+.arrow-icon {
+  margin-left: 10px;
+}
