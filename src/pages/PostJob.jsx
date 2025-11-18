@@ -1,3 +1,5 @@
+import './PostJob.css';
+
 export default function PostJob() {
   return (
     <div>
