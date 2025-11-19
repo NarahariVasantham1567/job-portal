@@ -15,6 +15,7 @@ import {
   Overview,
   PostJob,
   Settings,
+  TermsAndConditions,
 } from './pages';
 
 import Header from './components/Header/Header';
@@ -43,6 +44,7 @@ export default function App() {
         <Route path='/my-jobs' element={<MyJobs />} />
         <Route path='/applications' element={<Applications />} />
         <Route path='/customer-support' element={<CustomerSupports />} />
+        <Route path='/terms-conditions' element={<TermsAndConditions />} />
         <Route path='*' element={<ErrorPage />} />
       </Routes>
       <Footer />
