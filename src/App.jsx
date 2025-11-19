@@ -8,6 +8,7 @@ import {
   DashboardPage,
   EmployersProfile,
   ErrorPage,
+  FAQs,
   FindCandidate,
   Layout,
   Logout,
@@ -45,6 +46,7 @@ export default function App() {
         <Route path='/applications' element={<Applications />} />
         <Route path='/customer-support' element={<CustomerSupports />} />
         <Route path='/terms-conditions' element={<TermsAndConditions />} />
+        <Route path='/faqs' element={<FAQs />} />
         <Route path='*' element={<ErrorPage />} />
       </Routes>
       <Footer />
