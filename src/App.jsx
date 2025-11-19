@@ -7,6 +7,7 @@ import {
   CustomerSupports,
   DashboardPage,
   EmployersProfile,
+  ErrorPage,
   FindCandidate,
   Layout,
   Logout,
@@ -42,6 +43,7 @@ export default function App() {
         <Route path='/my-jobs' element={<MyJobs />} />
         <Route path='/applications' element={<Applications />} />
         <Route path='/customer-support' element={<CustomerSupports />} />
+        <Route path='*' element={<ErrorPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>
