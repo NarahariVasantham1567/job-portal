@@ -3,6 +3,48 @@ import './Billings.css';
 import { BsCheckAll } from 'react-icons/bs';
 import { RxCrossCircled } from 'react-icons/rx';
 import { FaArrowRight } from 'react-icons/fa6';
+import { FaRegEdit } from 'react-icons/fa';
+import { FaCcMastercard } from 'react-icons/fa6';
+import { GoDownload } from 'react-icons/go';
+
+const billing_data = [
+  {
+    id: '#487441',
+    date: 'Dec 7, 2019 23:26',
+    plan: 'Premium',
+    amount: '$999 USD',
+  },
+  {
+    id: '#653518',
+    date: 'Dec 7, 2019 23:26',
+    plan: 'Standard',
+    amount: '$999 USD',
+  },
+  {
+    id: '#267400',
+    date: 'Dec 7, 2019 23:26',
+    plan: 'Premium',
+    amount: '$999 USD',
+  },
+  {
+    id: '#651535',
+    date: 'Dec 7, 2019 23:26',
+    plan: 'Premium',
+    amount: '$999 USD',
+  },
+  {
+    id: '#449003',
+    date: 'Dec 7, 2019 23:26',
+    plan: 'Premium',
+    amount: '$999 USD',
+  },
+  {
+    id: '#558612',
+    date: 'Dec 7, 2019 23:26',
+    plan: 'Premium',
+    amount: '$999 USD',
+  },
+];
 
 const Billings = () => {
   return (
@@ -76,7 +118,63 @@ const Billings = () => {
             Pay Now <FaArrowRight className='arrow-icon' />
           </button>
         </div>
-        <div className='payment-container'></div>
+        <div className='payment-container'>
+          <div className='payment-card-container'>
+            <p className='payment-text'>Payment Card</p>
+            <div className='edit-container'>
+              <FaRegEdit />
+              <span>Edit Card</span>
+            </div>
+          </div>
+          <div className='master-card-container'>
+            <div className='master-details-container'>
+              <FaCcMastercard className='master-card-icon' />
+              <div className='person-details-container'>
+                <p className='card-name'>Name on card</p>
+                <p className='person-name'>Esther Howard</p>
+              </div>
+            </div>
+            <div className='expire-date-container'>
+              <p className='expire-date'>Expire Date</p>
+              <p className='expires-on'>12/29</p>
+            </div>
+          </div>
+          <p className='card-number'>6714 **** **** ****</p>
+        </div>
+      </div>
+      <div className='latest-invoice-container'>
+        <p className='invoice-header'>Latest Invoices</p>
+        <div className='table-container'>
+          <th className='table-header'>
+            <td className='table-data'>#ID</td>
+            <td className='table-data'>DATE</td>
+            <td className='table-data'>PLAN</td>
+            <td className='table-data'>AMOUNT</td>
+          </th>
+        </div>
+        {billing_data.map((item) => {
+          return (
+            <table className='table-row'>
+              <tr>
+                <td className='number'>{item.id}</td>
+              </tr>
+              <tr>
+                <td className='item-date'>{item.date}</td>
+              </tr>
+              <tr>
+                <td className='item-date'>{item.plan}</td>
+              </tr>
+              <tr>
+                <td className='item-date'>{item.amount}</td>
+              </tr>
+              <tr>
+                <td className='item-date'>
+                  <GoDownload className='download-icon' />
+                </td>
+              </tr>
+            </table>
+          );
+        })}
       </div>
     </div>
   );
