@@ -1,0 +1,57 @@
+.profile-card-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  border-radius: 3px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.3);
+  margin: 16px 0;
+}
+
+.profile-details {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+.img-holder {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #9e9d9d;
+  margin-bottom: 5px;
+}
+
+.personal-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile-name {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.profile-role {
+  font-size: 12px;
+  color: #9e9d9d;
+  margin-bottom: 5px;
+}
+
+.profile-list-container {
+  color: #9e9d9d;
+  font-size: 12px;
+  padding: 14px;
+}
+
+.profile-download-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #1776f2;
+  cursor: pointer;
+}
