@@ -4,6 +4,7 @@ import {
   AllCompanies,
   Applications,
   Billings,
+  Contact,
   CustomerSupports,
   DashboardPage,
   EmployersProfile,
@@ -47,9 +48,10 @@ export default function App() {
         <Route path='/customer-support' element={<CustomerSupports />} />
         <Route path='/terms-conditions' element={<TermsAndConditions />} />
         <Route path='/faqs' element={<FAQs />} />
+        <Route path='/contact' element={<Contact />} />
         <Route path='*' element={<ErrorPage />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </BrowserRouter>
   );
 }
