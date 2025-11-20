@@ -1,7 +1,11 @@
-export default function EmployersProfile() {
+import './EmployersProfile.css';
+
+const EmployersProfile = () => {
   return (
-    <div>
-      <h1>Employers Profile</h1>
+    <div className='employers-profile-container'>
+      <h1>Employers Profile Page</h1>
     </div>
   );
-}
+};
+
+export default EmployersProfile;

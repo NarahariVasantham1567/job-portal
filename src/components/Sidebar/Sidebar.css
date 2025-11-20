@@ -36,7 +36,5 @@
 }
 
 .last-item {
-  position: fixed;
-  bottom: 80px;
-  width: 19%;
+  margin-top: 30%;
 }
