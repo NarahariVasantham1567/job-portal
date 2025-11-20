@@ -1,6 +1,6 @@
 .billings-container {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   padding: 16px;
   display: flex;
   flex-direction: column;
@@ -98,7 +98,7 @@
   color: #3786a5;
 }
 
-.container {
+.bil-container {
   display: flex;
   flex-direction: column;
   gap: 12px;

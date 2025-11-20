@@ -90,7 +90,7 @@ const Billings = () => {
               </span>
             </div>
           </div>
-          <div className='container'>
+          <div className='bil-container'>
             <p className='text'>Remaining</p>
             <div className='li-container'>
               <span>

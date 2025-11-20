@@ -2,8 +2,8 @@ import './PostJob.css';
 
 export default function PostJob() {
   return (
-    <div>
-      <h1>Post A Job</h1>
+    <div className='post-job-container'>
+      <div className='job-container'>Post A Job</div>
     </div>
   );
 }

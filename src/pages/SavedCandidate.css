@@ -1,5 +1,6 @@
 .saved-candidate-container {
   width: 100%;
+  height: 100vh;
   padding: 16px;
   display: flex;
   flex-direction: column;

@@ -1,6 +1,6 @@
 .parent-container {
-  width: 100%;
-  max-width: 1200px;
+  width: 75%;
+  height: 80vh;
   margin: 32px auto;
   display: flex;
   justify-content: center;

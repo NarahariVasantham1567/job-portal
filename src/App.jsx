@@ -33,7 +33,7 @@ export default function App() {
         <Route path='/' element={<Layout />} />
         <Route path='/find-candidate' element={<FindCandidate />} />
         <Route path='/dashboard/' element={<DashboardPage />}>
-          <Route path='overview' element={<Overview />} />
+          <Route index path='overview' element={<Overview />} />
           <Route path='employee-profile' element={<EmployersProfile />} />
           <Route path='post-job' element={<PostJob />} />
           <Route path='my-jobs' element={<MyJobs />} />
@@ -51,7 +51,7 @@ export default function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='*' element={<ErrorPage />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </BrowserRouter>
   );
 }
