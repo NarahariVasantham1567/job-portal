@@ -16,3 +16,4 @@ export { default as Logout } from './Logout';
 export { default as TermsAndConditions } from './TermsAndConditions';
 export { default as FAQs } from './FAQs';
 export { default as Contact } from './Contact';
+export { default as AboutPage } from './About';

@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import {
+  AboutPage,
   AllCompanies,
   Applications,
   Billings,
@@ -48,10 +49,11 @@ export default function App() {
         <Route path='/customer-support' element={<CustomerSupports />} />
         <Route path='/terms-conditions' element={<TermsAndConditions />} />
         <Route path='/faqs' element={<FAQs />} />
+        <Route path='/about' element={<AboutPage />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='*' element={<ErrorPage />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </BrowserRouter>
   );
 }
