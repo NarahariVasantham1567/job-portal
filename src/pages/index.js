@@ -17,3 +17,4 @@ export { default as TermsAndConditions } from './TermsAndConditions';
 export { default as FAQs } from './FAQs';
 export { default as Contact } from './Contact';
 export { default as AboutPage } from './About';
+export { default as BlogList } from './BlogList';

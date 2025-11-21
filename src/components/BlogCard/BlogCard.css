@@ -1,0 +1,62 @@
+.blog-card-container {
+  width: 100%;
+  padding: 24px;
+  border: 2px solid grey;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  border-radius: 8px;
+}
+
+.blog-card-img-container {
+  border-radius: 5px;
+  background-color: gray;
+  width: 50%;
+  height: 150px;
+}
+
+.blog-card-content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.calendar-comments-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.calendar-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  color: gray;
+}
+
+.calendar-icon {
+  color: #2396c4;
+}
+
+.blog-card-heading {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.blog-card-description {
+  font-size: 14px;
+  color: #949494;
+}
+
+.readmore-btn {
+  padding: 8px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color: #2396c4;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}

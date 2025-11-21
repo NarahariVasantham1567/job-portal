@@ -5,6 +5,7 @@ import {
   AllCompanies,
   Applications,
   Billings,
+  BlogList,
   Contact,
   CustomerSupports,
   DashboardPage,
@@ -51,6 +52,7 @@ export default function App() {
         <Route path='/faqs' element={<FAQs />} />
         <Route path='/about' element={<AboutPage />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/blog' element={<BlogList />} />
         <Route path='*' element={<ErrorPage />} />
       </Routes>
       {/* <Footer /> */}

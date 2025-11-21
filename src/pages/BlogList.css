@@ -1,0 +1,192 @@
+.bloglist-parent-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.bloglist-header-container {
+  width: 100%;
+  padding: 16px;
+  background-color: #e4e4e4;
+}
+
+.bloglist-nav-container {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bloglist-main-container {
+  width: 75%;
+  height: 100vh;
+  margin: 24px auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 32px;
+}
+
+.bloglist-sidebar-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.bloglist-search-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 2px solid grey;
+}
+
+.search-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.search-text {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.sidebar-search-input-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-radius: 2px;
+  border: 1px solid grey;
+  padding: 8px 16px;
+}
+
+.search {
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+.search-icon {
+  height: 20px;
+  width: 20px;
+  color: #23a6da;
+}
+
+.search::placeholder {
+  font-size: 16px;
+}
+
+.line {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.bloglist-category-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+}
+
+.category-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-icon {
+  color: #908f8f;
+  cursor: pointer;
+}
+
+.bloglist-checkbox-parent-container {
+  display: none;
+}
+
+.bloglist-checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px;
+}
+
+.checkbox-input {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.show-bloglist-checkbox-parent-container {
+  display: block;
+}
+
+.recent-post-parent-container {
+  padding: 16px;
+  border: 2px solid grey;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.gallery-parent-container {
+  width: 100%;
+  padding: 16px;
+  border-radius: 8px;
+  border: 2px solid grey;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.gallery-img-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.gallery-chess-img {
+  height: 100px;
+  width: 100%;
+}
+
+.popular-tag-container {
+  padding: 16px;
+  border: 2px solid grey;
+  border-radius: 8px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.popular-btn-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.popular-btn {
+  padding: 8px;
+  color: #908f8f;
+  border: none;
+  border-radius: 3px;
+  background-color: #dbdbdb;
+  cursor: pointer;
+}
+
+.bloglist-main-content-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
