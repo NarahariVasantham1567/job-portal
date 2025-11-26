@@ -1,7 +1,11 @@
-export default function CustomerSupports() {
+import './CustomerSupport.css';
+
+const CustomerSupport = () => {
   return (
-    <div>
-      <h1>Customer Supports Page</h1>
+    <div className='customer-support-container'>
+      <h1>Customer Support Page</h1>
     </div>
   );
-}
+};
+
+export default CustomerSupport;

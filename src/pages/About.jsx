@@ -27,7 +27,7 @@ export default function AboutPage() {
         </div>
         <div className='about-company-container'>
           <div className='about-img-content-container'>
-            <div className='logo-container'>
+            <div className='about-logo-container'>
               <PiBriefcase className='about-briefcase-logo' />
             </div>
             <div className='about-content'>
