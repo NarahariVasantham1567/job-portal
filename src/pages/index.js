@@ -1,5 +1,5 @@
 export { default as DashboardPage } from './Dashbord';
-export { default as Layout } from './Layout';
+export { default as LandingPage } from './LandingPage';
 export { default as FindCandidate } from './FindCandidate';
 export { default as MyJobs } from './MyJobs';
 export { default as Applications } from './Applications';

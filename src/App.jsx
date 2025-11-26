@@ -13,7 +13,7 @@ import {
   ErrorPage,
   FAQs,
   FindCandidate,
-  Layout,
+  LandingPage,
   Logout,
   MyJobs,
   Overview,
@@ -32,7 +32,7 @@ export default function App() {
       <Navbar />
       <Header />
       <Routes>
-        <Route path='/' element={<Layout />} />
+        <Route path='/' element={<LandingPage />} />
         <Route path='/find-candidate' element={<FindCandidate />} />
         <Route path='/dashboard/' element={<DashboardPage />}>
           <Route index path='overview' element={<Overview />} />

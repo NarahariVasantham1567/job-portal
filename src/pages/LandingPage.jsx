@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 
-const Layout = () => {
+const LandingPage = () => {
   return (
     <>
       <div className='main-container'>
@@ -10,4 +10,4 @@ const Layout = () => {
   );
 };
 
-export default Layout;
+export default LandingPage;
