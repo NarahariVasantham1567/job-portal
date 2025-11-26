@@ -55,7 +55,7 @@ export default function App() {
         <Route path='/blog' element={<BlogList />} />
         <Route path='*' element={<ErrorPage />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </BrowserRouter>
   );
 }
