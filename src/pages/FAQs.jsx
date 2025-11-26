@@ -131,82 +131,85 @@ const FAQs = () => {
           <p className='home-text'>Home / Faqs</p>
         </div>
       </div>
-      <div className='account-container'>
-        <h3 className='account-header'>Your Account</h3>
-        {accounts.map((item) => {
-          return (
-            <div key={item.id}>
-              <div className='question-container'>
-                {item.question} <FaPlus onClick={() => onShowAnswer(item.id)} />
-              </div>
-              <div
-                className={
-                  item.isShow
-                    ? 'answer-parent-container show-answers'
-                    : 'answer-parent-container'
-                }
-              >
-                <div className='answer-container'>
-                  <span className='question'>{item.question}</span>{' '}
-                  <RxCross2 onClick={() => onCloseAnswer(item.id)} />
+      <div className='faqs-child-container'>
+        <div className='account-container'>
+          <h3 className='account-header'>Your Account</h3>
+          {accounts.map((item) => {
+            return (
+              <div key={item.id}>
+                <div className='question-container'>
+                  {item.question}{' '}
+                  <FaPlus onClick={() => onShowAnswer(item.id)} />
                 </div>
-                <span className='answer'>{item.answer}</span>
-              </div>
-            </div>
-          );
-        })}
-      </div>
-      <div className='account-container'>
-        <h3 className='account-header'>Employers and Jobs</h3>
-        {employer.map((item) => {
-          return (
-            <div key={item.id}>
-              <div className='question-container'>
-                {item.question}{' '}
-                <FaPlus onClick={() => onShowEmployerData(item.id)} />
-              </div>
-              <div
-                className={
-                  item.isShow
-                    ? 'answer-parent-container show-answers'
-                    : 'answer-parent-container'
-                }
-              >
-                <div className='answer-container'>
-                  <span className='question'>{item.question}</span>{' '}
-                  <RxCross2 onClick={() => onCloseEmployersData(item.id)} />
+                <div
+                  className={
+                    item.isShow
+                      ? 'answer-parent-container show-answers'
+                      : 'answer-parent-container'
+                  }
+                >
+                  <div className='answer-container'>
+                    <span className='question'>{item.question}</span>{' '}
+                    <RxCross2 onClick={() => onCloseAnswer(item.id)} />
+                  </div>
+                  <span className='answer'>{item.answer}</span>
                 </div>
-                <span className='answer'>{item.answer}</span>
               </div>
-            </div>
-          );
-        })}
-      </div>
-      <div className='account-container'>
-        <h3 className='account-header'>Candidate & Resume</h3>
-        {candidate.map((item) => {
-          return (
-            <div key={item.id}>
-              <div className='question-container'>
-                {item.question}{' '}
-                <FaPlus onClick={() => onShowCandidatesData(item.id)} />
-              </div>
-              <div
-                className={
-                  item.isShow
-                    ? 'answer-parent-container show-answers'
-                    : 'answer-parent-container'
-                }
-              >
-                <div className='answer-container'>
-                  <span className='question'>{item.question}</span>{' '}
-                  <RxCross2 onClick={() => onCloseCandidatesData(item.id)} />
+            );
+          })}
+        </div>
+        <div className='account-container'>
+          <h3 className='account-header'>Employers and Jobs</h3>
+          {employer.map((item) => {
+            return (
+              <div key={item.id}>
+                <div className='question-container'>
+                  {item.question}{' '}
+                  <FaPlus onClick={() => onShowEmployerData(item.id)} />
                 </div>
-                <span className='answer'>{item.answer}</span>
+                <div
+                  className={
+                    item.isShow
+                      ? 'answer-parent-container show-answers'
+                      : 'answer-parent-container'
+                  }
+                >
+                  <div className='answer-container'>
+                    <span className='question'>{item.question}</span>{' '}
+                    <RxCross2 onClick={() => onCloseEmployersData(item.id)} />
+                  </div>
+                  <span className='answer'>{item.answer}</span>
+                </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
+        <div className='account-container'>
+          <h3 className='account-header'>Candidate & Resume</h3>
+          {candidate.map((item) => {
+            return (
+              <div key={item.id}>
+                <div className='question-container'>
+                  {item.question}{' '}
+                  <FaPlus onClick={() => onShowCandidatesData(item.id)} />
+                </div>
+                <div
+                  className={
+                    item.isShow
+                      ? 'answer-parent-container show-answers'
+                      : 'answer-parent-container'
+                  }
+                >
+                  <div className='answer-container'>
+                    <span className='question'>{item.question}</span>{' '}
+                    <RxCross2 onClick={() => onCloseCandidatesData(item.id)} />
+                  </div>
+                  <span className='answer'>{item.answer}</span>
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );

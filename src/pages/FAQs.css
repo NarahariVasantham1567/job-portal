@@ -10,7 +10,7 @@
 }
 
 .faqs-nav-container {
-  max-width: 80%;
+  width: 75%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -18,8 +18,8 @@
 }
 
 .account-container {
-  max-width: 50%;
-  margin: 32px auto;
+  width: 45%;
+  margin: 24px auto;
   padding: 16px;
   display: flex;
   flex-direction: column;
@@ -72,4 +72,11 @@
 .answer {
   font-size: 14px;
   color: #9e9d9d;
+}
+
+.faqs-child-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

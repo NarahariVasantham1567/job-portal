@@ -36,7 +36,7 @@ export default function AboutPage() {
             </div>
           </div>
           <div className='about-img-content-container'>
-            <div className='logo-container'>
+            <div className='about-logo-container'>
               <HiOutlineBuildingOffice2 className='about-briefcase-logo' />
             </div>
             <div className='about-content'>
@@ -45,7 +45,7 @@ export default function AboutPage() {
             </div>
           </div>
           <div className='about-img-content-container'>
-            <div className='logo-container'>
+            <div className='about-logo-container'>
               <GoPerson className='about-briefcase-logo' />
             </div>
             <div className='about-content'>
@@ -55,8 +55,8 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
-      <div className='logos-container'>
-        <div className='logos-image-container'>
+      <div className='about-logos-container'>
+        <div className='about-logos-image-container'>
           <img
             src='/company-logos.png'
             alt='company logos'
