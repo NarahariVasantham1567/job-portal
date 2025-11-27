@@ -1,6 +1,7 @@
 .footer-parent-container {
   width: 100vw;
   padding: 48px;
+  margin-top: 32px;
   background-color: #0f131d;
   position: fixed;
   bottom: 0;
