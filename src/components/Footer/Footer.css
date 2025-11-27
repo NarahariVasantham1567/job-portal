@@ -5,6 +5,7 @@
   background-color: #0f131d;
   position: fixed;
   bottom: 0;
+  z-index: 5;
 }
 
 .footer-container {
