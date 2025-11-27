@@ -4,7 +4,7 @@ import { GoPerson } from 'react-icons/go';
 import { CgProfile } from 'react-icons/cg';
 import { CiGlobe } from 'react-icons/ci';
 import { IoSettingsOutline } from 'react-icons/io5';
-import CompanyInfo from '../components/CompanyInfo/CompanyINfo';
+import CompanyInfo from '../components/CompanyInfo/CompanyInfo';
 import FoundingInfo from '../components/FoundingInfo/FoundingInfo';
 import SocialMediaProfile from '../components/SocialMediaProfile/SocialMediaProfile';
 import AccountSettings from '../components/AccountSettings/AccountSettings';
