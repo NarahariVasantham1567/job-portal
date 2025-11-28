@@ -118,6 +118,7 @@
   gap: 5px;
   color: #b4b3b3;
   margin: 10px 0;
+  cursor: pointer;
 }
 
 .icon-container span {

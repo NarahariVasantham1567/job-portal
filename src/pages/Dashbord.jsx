@@ -3,11 +3,11 @@ import './Dashboard.css';
 import { Outlet } from 'react-router-dom';
 import Sidebar from '../components/Sidebar/Sidebar';
 import SingleApplication from '../components/SingleApplication/SingleApplication';
-import { useState } from 'react';
 import useModalContext from '../context/ModalContext';
+import PromoteJobCard from '../components/PromoteJobCard/PromoteJobCard';
 
 export default function DashboardPage() {
-  const { openModal } = useModalContext();
+  const { openModal, openJobCard } = useModalContext();
 
   return (
     <>
@@ -16,6 +16,7 @@ export default function DashboardPage() {
         <Outlet />
       </div>
       {openModal && <SingleApplication />}
+      {openJobCard && <PromoteJobCard />}
     </>
   );
 }

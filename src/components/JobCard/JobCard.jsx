@@ -13,7 +13,7 @@ import useModalContext from '../../context/ModalContext';
 const JobCard = ({ role, status, type, noticePeriod, applications }) => {
   const [openBtn, setOpenBtn] = useState(false);
 
-  const { setOpenModal } = useModalContext();
+  const { setOpenJobCard } = useModalContext();
 
   return (
     <>
@@ -56,7 +56,10 @@ const JobCard = ({ role, status, type, noticePeriod, applications }) => {
               openBtn === true ? 'show-content display-content' : 'show-content'
             }
           >
-            <div className='icon-container' onClick={() => setOpenModal(true)}>
+            <div
+              className='icon-container'
+              onClick={() => setOpenJobCard(true)}
+            >
               <span>
                 <GoPlusCircle />
               </span>{' '}
