@@ -78,7 +78,9 @@ const PromoteJobCard = () => {
               </div>
             </div>
             <div className='promote-job-top-container'>
-              <p className='promote-job-top-heading'>ALWAYS ON THE TOP</p>
+              <p className='promote-job-top-heading'>
+                HIGHLIGHT JOB WITH COLOR
+              </p>
               <div className='promote-job-child-grid-container'>
                 <div className='promote-job-shimmer-container'>
                   <div className='promote-job-img-container'>
@@ -128,7 +130,9 @@ const PromoteJobCard = () => {
               <div className='promote-job-radio-container'>
                 <div className='job-radio-container'>
                   <input type='radio' />
-                  <label className='promote-job-label'>Featured Your Job</label>
+                  <label className='promote-job-label'>
+                    Highlight Your Job
+                  </label>
                 </div>
                 <p className='promote-job-label-text'>
                   Sed neque diam, lacinia nec dolor et, equismod bibendum

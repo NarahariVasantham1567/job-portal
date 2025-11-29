@@ -5,9 +5,10 @@ import Sidebar from '../components/Sidebar/Sidebar';
 import SingleApplication from '../components/SingleApplication/SingleApplication';
 import useModalContext from '../context/ModalContext';
 import PromoteJobCard from '../components/PromoteJobCard/PromoteJobCard';
+import NewColumn from '../components/NewColumn/NewColumn';
 
 export default function DashboardPage() {
-  const { openModal, openJobCard } = useModalContext();
+  const { openModal, openJobCard, openNewColumn } = useModalContext();
 
   return (
     <>
@@ -17,6 +18,7 @@ export default function DashboardPage() {
       </div>
       {openModal && <SingleApplication />}
       {openJobCard && <PromoteJobCard />}
+      {openNewColumn && <NewColumn />}
     </>
   );
 }

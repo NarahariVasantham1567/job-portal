@@ -5,10 +5,18 @@ const ModelContext = createContext();
 export const ModelProvider = ({ children }) => {
   const [openModal, setOpenModal] = useState(false);
   const [openJobCard, setOpenJobCard] = useState(false);
+  const [openNewColumn, setOpenNewColumn] = useState(false);
 
   return (
     <ModelContext.Provider
-      value={{ openModal, setOpenModal, openJobCard, setOpenJobCard }}
+      value={{
+        openModal,
+        setOpenModal,
+        openJobCard,
+        setOpenJobCard,
+        openNewColumn,
+        setOpenNewColumn,
+      }}
     >
       {children}
     </ModelContext.Provider>

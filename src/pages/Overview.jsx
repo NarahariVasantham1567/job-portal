@@ -7,6 +7,7 @@ import { RiDeleteBinLine } from 'react-icons/ri';
 import { GoPlusCircle } from 'react-icons/go';
 
 import ProfileCard from '../components/ProfileCard/ProfileCard';
+import useModalContext from '../context/ModalContext';
 
 const applicationsData = [
   {
@@ -65,6 +66,8 @@ const shortlistedData = [
 const Overview = () => {
   const [isSort, setIsSort] = useState(false);
   const [isEditable, setIsEditable] = useState(false);
+
+  const { setOpenNewColumn } = useModalContext();
 
   return (
     <div className='overview-container'>
@@ -153,7 +156,10 @@ const Overview = () => {
             <ProfileCard key={item.id} {...item} />
           ))}
         </div>
-        <div className='create-container'>
+        <div
+          className='create-container'
+          onClick={() => setOpenNewColumn(true)}
+        >
           <GoPlusCircle className='plus-icon' /> Create
         </div>
       </div>
